@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: 'https://butterfly-web-lyart.vercel.app',
+  origin: 'https://butterflyweb.onrender.com',
   credentials: true,
 }));
 app.use(express.json());
