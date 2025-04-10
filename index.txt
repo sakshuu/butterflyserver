@@ -1,1 +1,0 @@
-yarn add nodemailer mongoose express dotenv cors axios 
