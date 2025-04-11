@@ -9,8 +9,9 @@ dotenv.config(); // Load environment variables from .env file
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// origin: 'http://localhost:3000',
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://butterflyweb.onrender.com',
   credentials: true,
 }));
 app.use(express.json());
