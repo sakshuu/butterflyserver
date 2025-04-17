@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // origin: 'http://localhost:3000',
 app.use(cors({
-  origin: 'https://butterflyclient.onrender.com',
+  origin: 'https://butterflyweb.onrender.com',
   credentials: true,
 }));
 app.use(express.json());
