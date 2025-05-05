@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 // origin: 'http://localhost:3000',
 // origin: 'https://butterflyweb.onrender.com',
 app.use(cors({
-  origin: 'home/thebutt/admin.thebutterflypune.com',
+  origin: 'https://thebutterflypune.com',
   credentials: true,
 }));
 app.use(express.json());
